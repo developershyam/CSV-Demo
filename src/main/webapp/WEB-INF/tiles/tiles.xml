@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Templates -->
+
+	<definition name="layout.basic" template="/WEB-INF/tiles/layout/basicLayout.jsp">
+		<put-attribute name="title" value="Title" />
+		<put-attribute name="header" value="/WEB-INF/tiles/layout/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/layout/footer.jsp" />
+	</definition>
+
+
+	<definition name="welcome" extends="layout.basic">
+		<put-attribute name="title" value="Welcome" />
+		<put-attribute name="body"
+			value="/WEB-INF/tiles/view/jsp/welcome.jsp" />
+	</definition>
+
+	<definition name="fileUpload" extends="layout.basic">
+		<put-attribute name="title" value="File Upload" />
+		<put-attribute name="body"
+			value="/WEB-INF/tiles/view/jsp/fileUpload.jsp" />
+	</definition>
+	<definition name="fileSearch" extends="layout.basic">
+		<put-attribute name="title" value="File Search" />
+		<put-attribute name="body"
+			value="/WEB-INF/tiles/view/jsp/fileSearch.jsp" />
+	</definition>
+
+
+	<definition name="errorPage" extends="layout.basic">
+		<put-attribute name="title" value="Access Denied" />
+		<put-attribute name="body" value="/WEB-INF/tiles/view/jsp/error.jsp" />
+	</definition>
+
+</tiles-definitions>

@@ -1,0 +1,169 @@
+.adminHeaderTopDropdown {
+	margin-top: 21px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.header_inner {
+	background: -webkit-linear-gradient(#286090, #00aeef);
+	background: linear-gradient(to BOTTOM, #286090, #00aeef);
+	background: -moz-linear-gradient(to BOTTOM, #286090, #00aeef);
+	background: -ms-linear-gradient(to BOTTOM, #286090, #00aeef);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr='#286090', endColorstr='#00aeef'); /* IE6 & IE7 */
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#286090', endColorstr='#00aeef')";
+	/* IE8 */
+}
+
+#headerSearchArea {
+	margin-top: -2px;
+	padding-left: 15px;
+	width: 81%;
+	float: right;
+}
+
+#headerSearchArea input[type="text"] {
+	height: 28px;
+	font-size: 14px;padding: 0px 10px;
+}
+
+#headerSearchArea i {
+	font-size: 16px
+}
+
+#headerSearchArea button {
+	width: 51px;
+	margin: 0px;
+	padding: 5px
+}
+
+.headerToggleBtn span i {
+	margin-top: 18px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 18px;
+}
+
+.top_searcharea {
+	padding-top: 15px;
+}
+
+.top_nav {
+	padding-top: 17px;
+	float: right;
+	margin-bottom: 6px;
+}
+
+.top_nav ul {
+	float: left;
+	width: 430;
+	margin-bottom: 6px;
+}
+
+.top_nav ul li {
+	float: left;
+	margin-left: 10px;
+	font-size: 15px;
+	margin-left: 20px;
+	color: #EBECEC;
+}
+
+li.top_navlastli.menu_button:hover {
+	color: white;
+}
+
+.top_nav ul li.top_navlastli {
+	font-size: 20px;
+	margin-top: -4px;
+} /*change*/
+.top_nav ul li i {
+	margin-right: 4px;
+	margin-bottom: 2px;
+}
+
+.top_nav ul li a.textUp {
+	color: #efecec;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.top_nav ul li a:hover {
+	text-decoration: none;
+} /*change*/
+.schoolname_area span {
+	color: #00afef;
+	font-weight: 600;font-size: 14px;text-transform: uppercase;
+}
+
+.schoolname_area {
+	padding-left: 50px;
+	margin-top: 2px;font-size: 15px
+}
+
+.adminDashboardTopTab {
+	margin-top: 10px
+}
+
+h1, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width:1100px) {
+	.notifications {
+    left: -12px;}
+}
+
+@media only screen and (max-width: 1000px) {
+	.logo1{padding-top: 4px;}
+	.c-buttons{margin-top: -2px;color: #fff}
+	.logo1 img {width: 82%;}
+	.header_inner{height: 44px}
+	.top_nav{padding-top: 0px}
+	.notificationNotify { top: -8px !important;right: 58px;}
+    .requestNotify { top: -8px  !important;right: 112px  !important;}
+    .headerToggleBtn span i{margin-top: -8px;
+    margin-left: 10px;
+    padding-left: 16px;
+    padding-top: 8px;
+    margin-right: -8px;
+    padding-right: 8px;padding-bottom: 6px;}
+    .top_nav ul li i{margin-right: 15px}
+    .headerToggleBtn .dropdown-menu { top: 28px;right: 25px;}
+    .logoM {width: 45%;margin-left: 14px; padding-bottom: 1px;margin-left: 60px;    padding-top: 5px;}
+   .c-menu__close i{font-size: 20px}
+	#topNotificationBoxController ul.dropdown-menu { right: 77px;margin-top: -17px;}
+	
+}
+@media only screen and (max-width:640px) {
+	.logo1 {width: 20%;}
+	.logo1 img {width: 82%;
+   }
+
+}
+
+@media only screen and (max-width:480px) {
+.logo1 {width: 23%;}
+	.logo1 img {width: 100%; }.logo1{padding-top: 2px;}
+}
+@media only screen and (max-width:411px) {
+
+}
+@media only screen and (max-width:360px) {
+
+.logo1 {width: 26%;padding-top: 3px;}
+.mDN{display: none;}
+#topNotificationBoxController ul.dropdown-menu { right: 20px;}
+}
+
+@media only screen and (max-width:320px) {
+.logo1 {width: 28%;margin-left: 14px;padding-top: 4px;}
+.logoM {
+    width: 44%;
+    margin-left: 14px;
+    padding-bottom: 1px;
+    margin-left: 46px;
+}
+
+.c-menu__close i{font-size: 20px}
+}
